@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>mission_5-01</title>
+</head>
+<body>
+  <div id="calc">
+    <div>
+      <input readonly id="result" type="text" value="0">
+      <button onclick="c_click()">C</button>
+    </div>
+    <div>
+      <button onclick="number_click(this.innerHTML)">7</button>
+      <button onclick="number_click(this.innerHTML)">8</button>
+      <button onclick="number_click(this.innerHTML)">9</button>
+      <button onclick="symbol_click(this.innerHTML)">÷</button>
+    </div>
+    <div>
+      <button onclick="number_click(this.innerHTML)">4</button>
+      <button onclick="number_click(this.innerHTML)">5</button>
+      <button onclick="number_click(this.innerHTML)">6</button>
+      <button onclick="symbol_click(this.innerHTML)">×</button>
+    </div>
+    <div>
+      <button onclick="number_click(this.innerHTML)">1</button>
+      <button onclick="number_click(this.innerHTML)">2</button>
+      <button onclick="number_click(this.innerHTML)">3</button>
+      <button onclick="symbol_click(this.innerHTML)">-</button>
+    </div>
+    <div>
+      <button onclick="number_click(this.innerHTML)">0</button>
+      <button onclick="number_click(this.innerHTML)">.</button>
+      <button onclick="equal_click()">=</button>
+      <button onclick="symbol_click(this.innerHTML)">+</button>
+    </div>
+  </div>
+  <script src="mission_5-01.js"></script>
+</body>
